@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <div id="myDiv">
+        hello
+    </div>
+
+    <section>
+        <h2>Accesarea elementelor dupa nume de clasa</h2>
+        <p class="error">Something is wrong</p>
+        <p class="error">Something is worse</p>
+        <p class="error important">This is an important error!</p>
+    </section>
+
+    <section>
+        <h2>Accesarea elementelor dupa atributul name</h2>
+        <label for="dogs">Dogs:</label>
+        <input type="checkbox" name="animal" id="dogs">
+        <label for="cats">Cats:</label>
+        <input type="checkbox" name="animal" id="cats">
+    </section>
+
+    <section>
+        <h2>Manipularea elementelor prin metodele getAttribute și setAttribute</h2>
+        <a>Important url</a>
+    </section>
+
+    <section id="created-elements">
+        <h2>Crearea si adaugarea de elemente noi in DOM</h2>
+    </section>
+
+    <section>
+        <h2>Stergerea elementelor din dom</h2>
+        <p id="delete-me">Delete me!</p>
+    </section>
+    <section>
+        <h2>Event listeners</h2>
+        <button id="click-me-btn">Click me!</button>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
